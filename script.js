@@ -12,13 +12,16 @@ const nextBtn = document.querySelectorAll(".btn-next");
 // انتخاب دکمه ی انجام شد
 const doneBtn = document.querySelector(".btn-done");
 
-// انتخاب دکمه ی منو
-const menuBtn = document.getElementById("menu-toggle");
-const menu = document.getElementById("main-menu");
+// انتخاب وروردی ها
+const email = document.getElementById("email");
+const userName = document.getElementById("user-name");
+const password = document.getElementById("password");
 
-// انتخاب دکمه ی منوی تمرینات
-const submenuBtn = document.getElementById("submenu-toggle");
-const submenu = document.getElementById("exercises-submenu");
+// انتخاب کانتینر داشبورد
+const cardsSliderWrapper = document.querySelector(".card-slider-wrapper");
+
+// انتخاب داشبورد
+const dashboard = document.getElementById("dashboard");
 
 // متغییر شمارنده
 let steps = -1;
@@ -33,17 +36,6 @@ function showCard(step) {
     }
   });
 }
-
-// فعال کردن منو
-menuBtn.addEventListener("click", () => {
-  menu.classList.toggle("active");
-});
-
-// فعال کردن منوی تمرینات
-submenuBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  submenu.classList.toggle("active");
-});
 
 // فعال کردن دکمه ی استارت
 startBtn.addEventListener("click", () => {
@@ -69,5 +61,15 @@ nextBtn.forEach((btn) => {
 });
 
 // فعال کردن دکمه ی انجام شد
-doneBtn.addEventListener("click", () => {});
-showCard(steps);
+doneBtn.addEventListener("click", () => {
+  if (
+    email.value.trim() === "" ||
+    userName.value.trim() === "" ||
+    password.value.trim() === ""
+  ) {
+    alert("لطفا موارد خواسته شده را وارد کنید. 🙂");
+    return;
+  }
+  cardsSliderWrapper.style.display = "none";
+  dashboard.style.display = "block";
+});
