@@ -243,8 +243,9 @@ button:hover {
   }
 }
 
-.grid-exercise{
-  
+.grid-exercise {
+  color: #000;
+  background-color: #4fc1b8;
 }
 
 .linguboost-footer {
