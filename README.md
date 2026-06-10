@@ -60,10 +60,10 @@
 ## Create a dashboard.
 
 Dashboard content:
+
 Vocabulary. Grammar. Pronunciation. Exercises: vocabulary exercises. grammar exercises. pronunciation exercises. flashcards.
 
 ## Dashboard
-
 ![Dashboard Page](./imgs/Dashboard.png)
 
 # 📄 License
