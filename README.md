@@ -35,7 +35,7 @@
 - Organizing code structure
 - Improving responsiveness and user experience
 
-## Key JavaScript Concepts Practiced:
+## ❗ Key JavaScript Concepts Practiced:
 
 - querySelector / querySelectorAll
 - addEventListener
@@ -47,7 +47,7 @@
 
 ## This project was built for learning purposes and is not intended for production use.
 
-# Screenshots
+# 🖼 Screenshots
 
 ## Home Page
 ![Home Page](./imgs/Home-light.png)
@@ -58,7 +58,7 @@
 ## Dashboard
 ![Dashboard Page](./imgs/Dashboard.png)
 
-# Update 7/6/2026
+# 📢 Update 7/6/2026
 
 ## Create a dashboard.
 
