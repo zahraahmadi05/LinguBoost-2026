@@ -32,3 +32,4 @@ Add background.
 ![Background](./imgs/Background.png)
 
 Add icons for header, description, dashboard.
+Edit dachboard styles.
