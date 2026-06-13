@@ -58,6 +58,10 @@
 
 ![Cards Light](./imgs/cards-light.png)
 
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md) for complete history of project updates.
+
 # 📄 License
 
 MIT
