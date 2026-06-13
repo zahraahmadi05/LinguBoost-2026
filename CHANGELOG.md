@@ -31,4 +31,4 @@ Add background.
 
 ![Background](./imgs/Background.png)
 
-Add icons for LinguBoost.
+Add icons for header, description, dashboard. 
