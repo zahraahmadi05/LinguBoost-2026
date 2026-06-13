@@ -78,7 +78,17 @@ Enabled the Exercises button.
 Exercise categories are now displayed when the user clicks on the Exercises section.
 
 ## Exercises
+
 ![Exercises Page](./imgs/exercises.png)
 
+# 📢 Update 13/6/2026
+
+Add background.
+
+## Background
+
+![Background](.imgs/background.jpg)
+
 # 📄 License
+
 MIT
