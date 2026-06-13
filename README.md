@@ -78,9 +78,7 @@ Enabled the Exercises button.
 Exercise categories are now displayed when the user clicks on the Exercises section.
 
 ## Exercises
-
 ![Exercises Page](./imgs/exercises.png)
 
 # 📄 License
-
 MIT
