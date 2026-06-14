@@ -93,6 +93,8 @@ body {
   width: 80px;
   background: #2563eb;
   color: #fff;
+  margin-right: 190px;
+  margin-top: 30px;
 }
 
 .btn-start:hover {
