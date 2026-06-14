@@ -29,7 +29,7 @@ body {
     line-height: 1.8;
     background-image: url("imgs/background.jpg");
     background-repeat: no-repeat;
-    background-size: 400%;
+    background-size: 600%;
   }
 }
 
@@ -299,7 +299,7 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 50px;
+    margin-right: 60px;
   }
 }
 
@@ -339,7 +339,7 @@ button:hover {
   .grid-exercises {
     padding: 10px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
-    margin-right: 75px;
+    margin-right: 85px;
     width: 110px;
   }
 }
