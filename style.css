@@ -157,6 +157,11 @@ body {
   }
 }
 
+.icon {
+  width: 80px;
+  margin-right: 190px;
+}
+
 .btn-next {
   margin-top: 15px;
   margin-bottom: 20px;
