@@ -39,3 +39,7 @@ Edit dachboard styles.
 Changing the Start Button Style.
 Changing the header text.
 Styling the header text.
+
+# 📢 Update 14/6/2026
+
+Add background for tablets.
