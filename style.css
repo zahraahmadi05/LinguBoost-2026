@@ -152,14 +152,28 @@ body {
 
 @media (max-width: 768px) {
   .card {
-    margin: 10px;
-    background: #fff;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.55);
   }
 }
 
 .icon {
-  width: 80px;
-  margin-right: 190px;
+  width: 70px;
+  margin-right: 195px;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    width: 70px;
+    margin-right: 137px;
+  }
+}
+
+@media (max-width: 576px) {
+  .icon {
+    width: 60px;
+    margin-right: 112px;
+  }
 }
 
 .btn-next {
@@ -307,7 +321,7 @@ button:hover {
   .grid-item {
     padding: 15px;
     width: 150px;
-    height: 80px;
+    height: 100px;
     display: grid;
     flex-direction: column;
     justify-content: center;
@@ -330,6 +344,22 @@ button:hover {
   .grid-item:hover {
     background-color: #222;
     color: #fff;
+  }
+}
+
+.icons {
+  width: 40px;
+}
+
+@media (max-width: 768px) {
+  .icons {
+    width: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .icons {
+    width: 30px;
   }
 }
 
