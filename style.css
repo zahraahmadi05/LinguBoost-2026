@@ -330,6 +330,12 @@ button:hover {
   }
 }
 
+@media (max-width: 576px) {
+  .grid-item {
+    margin-right: 84px;
+  }
+}
+
 .grid-item:hover {
   background-color: #f5efe4;
   color: #000;
