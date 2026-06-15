@@ -27,9 +27,17 @@ body {
   body {
     font-size: 1rem;
     line-height: 1.8;
-    background-image: url("imgs/background.jpg");
+    background-image: url("imgs/background-mobile.png");
     background-repeat: no-repeat;
-    background-size: 600%;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("imgs/background-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
