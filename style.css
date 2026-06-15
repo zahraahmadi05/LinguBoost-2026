@@ -54,7 +54,6 @@ body {
   padding: 15px;
   text-align: center;
   font-size: 1.2rem;
-  border-bottom: 2px solid var(--border);
   background: var(--primary);
   color: var(--text-button);
   font-weight: 500;
@@ -65,9 +64,7 @@ body {
     font-size: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 2px solid var(--border);
-    background: #f9eeee;
-    background-filter: blur(5px);
+    background: #f7f1f1c7;
   }
 }
 
