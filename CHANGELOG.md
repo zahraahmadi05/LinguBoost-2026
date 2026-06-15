@@ -43,3 +43,4 @@ Styling the header text.
 # 📢 Update 14/6/2026
 
 Add background for tablets.
+Add media query.
