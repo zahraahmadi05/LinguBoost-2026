@@ -70,9 +70,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .linguboost-header {
-    background: #222;
     color: white;
-    border: 1px solid #ffffff;
   }
 }
 
@@ -91,6 +89,12 @@ body {
   width: 170px;
   font-weight: 500;
   text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero-section p {
+    background: #02233f;
+  }
 }
 
 @media (max-width: 768px) {
@@ -130,7 +134,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .btn-start {
-    background: #444;
+    background: #4a0404;
   }
   .btn-start:hover {
     background: #111;
@@ -153,6 +157,12 @@ body {
   .card {
     margin: 20px;
     background: rgba(255, 255, 255, 0.55);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background: #512102;
   }
 }
 
@@ -212,11 +222,11 @@ body {
 
 @media (prefers-color-scheme: dark) {
   .btn-next {
-    background: #555;
+    background: #624601;
     color: #ffffff;
   }
   .btn-next:hover {
-    background: #222;
+    background: #000000;
   }
 }
 
@@ -251,7 +261,7 @@ input:focus {
 
 @media (prefers-color-scheme: dark) {
   input {
-    background: #666;
+    background: #ffffff20;
   }
 }
 
@@ -274,11 +284,11 @@ button:hover {
 
 @media (prefers-color-scheme: dark) {
   button {
-    background: #555;
+    background: #044133;
     color: #fff;
   }
   button:hover {
-    background: #111;
+    background: #000;
   }
 }
 
