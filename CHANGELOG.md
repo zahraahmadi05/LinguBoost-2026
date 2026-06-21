@@ -44,3 +44,7 @@ Styling the header text.
 
 Add background for tablets.
 Add media query.
+
+# 📢 Update 21/6/2026
+
+Add github link in footer.
