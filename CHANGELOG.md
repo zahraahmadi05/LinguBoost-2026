@@ -17,6 +17,7 @@ Vocabulary. Grammar. Pronunciation. Exercises: vocabulary exercises. grammar exe
 Change whole style.
 
 Enabled the Exercises button.
+
 Exercise categories are now displayed when the user clicks on the Exercises section.
 
 ## Exercises
@@ -32,21 +33,27 @@ Add background.
 ![Background](./imgs/Background.png)
 
 Add icons for header, description, dashboard.
+
 Edit dachboard styles.
 
 # 📢 Update 14/6/2026
 
 Changing the Start Button Style.
+
 Changing the header text.
+
 Styling the header text.
 
 # 📢 Update 14/6/2026
 
 Add background for tablets.
+
 Add media query.
 
 # 📢 Update 21/6/2026
 
 Add github link in footer.
+
 Add style for github link in footer.
+
 Change some icons.
