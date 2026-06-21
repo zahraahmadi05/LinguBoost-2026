@@ -49,3 +49,4 @@ Add media query.
 
 Add github link in footer.
 Add style for github link in footer.
+Change some icons.
