@@ -353,11 +353,11 @@ button:hover {
 @media (prefers-color-scheme: dark) {
   .grid-item {
     padding: 15px 10px;
-    background-color: #444;
+    background-color: #031829;
     color: #ffffff;
   }
   .grid-item:hover {
-    background-color: #222;
+    background-color: #000000;
     color: #fff;
   }
 }
@@ -409,7 +409,7 @@ button:hover {
 
 @media (prefers-color-scheme: dark) {
   .grid-exercises {
-    background-color: #555;
+    background-color: #3d0000;
     color: #ffffff;
     margin-right: 27px;
   }
