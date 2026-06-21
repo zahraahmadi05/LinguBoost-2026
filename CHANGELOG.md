@@ -48,3 +48,4 @@ Add media query.
 # 📢 Update 21/6/2026
 
 Add github link in footer.
+Add style for github link in footer.
