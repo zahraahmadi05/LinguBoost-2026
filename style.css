@@ -64,7 +64,7 @@ body {
     font-size: 1rem;
     margin-top: 10px;
     margin-bottom: 10px;
-    background: #f7f1f1c7;
+    background: #fffafac7;
   }
 }
 
@@ -418,5 +418,17 @@ button:hover {
   .linguboost-footer {
     margin-top: 10px;
     padding: 5px 65px;
+  }
+}
+
+.github {
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .github {
+    background: #fff;
+    border-radius: 20px;
   }
 }
