@@ -33,7 +33,7 @@ body {
   }
 }
 
-@media (min-width: 567px) {
+@media (max-width: 575px) {
   body {
     background-image: url("imgs/background-mobile.png");
     background-repeat: no-repeat;
@@ -68,6 +68,14 @@ body {
   }
 }
 
+@media (max-width: 575px) {
+  .linguboost-header {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .linguboost-header {
     color: white;
@@ -75,7 +83,6 @@ body {
 }
 
 .hero-section {
-  //width: 360px;
   max-width: 450px;
   padding: 17px;
   margin-bottom: 20px;
@@ -92,12 +99,6 @@ body {
   text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  .hero-section p {
-    background: #02233f;
-  }
-}
-
 @media (min-width: 768px) {
   .hero-section {
     max-width: 500px;
@@ -107,6 +108,27 @@ body {
   .hero-section p {
     padding: 6px;
     width: 160px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-section {
+    font-size: 0.8rem;
+    font-height: 20;
+    padding: 14px;
+  }
+  .hero-section p {
+    padding: 5px;
+    margin-top: 14px;
+    width: 140px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero-section p {
+    background: #02233f;
   }
 }
 
@@ -130,6 +152,13 @@ body {
   .btn-start {
     width: 70px;
     margin-right: 210px;
+  }
+}
+
+@media (max-width: 575px) {
+  .btn-start {
+    width: 60px;
+    margin-right: 169px;
   }
 }
 
@@ -162,6 +191,14 @@ body {
   }
 }
 
+@media (max-width: 575px) {
+  .card {
+    background: rgba(255, 255, 255, 0.46);
+    padding: 10px;
+    margin: 30px;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .card {
     background: #512102;
@@ -176,14 +213,14 @@ body {
 @media (min-width: 768px) {
   .icon {
     width: 70px;
-    margin-right: 153px;
+    margin-right: 160px;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .icon {
     width: 60px;
-    margin-right: 112px;
+    margin-right: 140px;
   }
 }
 
@@ -203,6 +240,16 @@ body {
     transform 0.2s ease;
 }
 
+.btn-next:hover {
+  background: #6669f3;
+  color: #fff;
+  transform: translateX(-4px);
+}
+
+.btn-next:active {
+  transform: translateY(0);
+}
+
 @media (min-width: 768px) {
   .btn-next {
     margin-top: 30px;
@@ -212,14 +259,10 @@ body {
   }
 }
 
-.btn-next:hover {
-  background: #6669f3;
-  color: #fff;
-  transform: translateX(-4px);
-}
-
-.btn-next:active {
-  transform: translateY(0);
+@media (max-width: 575px) {
+  .btn-next {
+    margin-right: 133px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -240,6 +283,13 @@ body {
   margin-bottom: 13px;
 }
 
+@media (max-width: 575px) {
+  .field {
+    font-size: 1rem;
+    gap: 12px;
+  }
+}
+
 input {
   background: #e2e8f0;
   width: 220px;
@@ -250,15 +300,23 @@ input {
   border: none;
 }
 
-@media (min-width: 768px) {
-  input {
-    padding: 5px;
-  }
-}
-
 input:focus {
   border-color: #bfcfe3;
   box-shadow: 0 0 0 5px rgba(68, 5, 68, 0.15);
+}
+
+@media (min-width: 768px) {
+  input {
+    padding: 7px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 575px) {
+  input {
+    width: 240px;
+    padding: 8px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -282,6 +340,21 @@ button {
 button:hover {
   background: #267fec;
   color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  button {
+    margin-right: 155px;
+    margin-top: 17px;
+  }
+}
+
+@media (max-width: 575px) {
+  button {
+    margin-right: 130px;
+    margin-top: 17px;
+    width: 70px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -308,14 +381,21 @@ button:hover {
 .grid-container {
   padding: 30px;
   display: grid;
-  grid-template-columns: repeat(3, 300px);
-  gap: 25px;
+  grid-template-columns: repeat(3, 250px);
+  gap: 8px;
 }
 
 @media (min-width: 768px) {
   .grid-container {
     display: grid;
-    gap: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 200px);
+    margin-right: 95px;
   }
 }
 
@@ -334,6 +414,11 @@ button:hover {
   box-shadow: 0 0px 20px rgba(0, 0, 0, 0.25);
 }
 
+.grid-item:hover {
+  background-color: #f5efe4;
+  color: #000;
+}
+
 @media (min-width: 768px) {
   .grid-item {
     padding: 10px;
@@ -348,15 +433,12 @@ button:hover {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .grid-item {
-    margin-right: 84px;
+    font-size: 1rem;
+    width: 130px;
+    height: 100px;
   }
-}
-
-.grid-item:hover {
-  background-color: #f5efe4;
-  color: #000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -393,13 +475,18 @@ button:hover {
 
 .grid-exercises {
   color: #000000;
-  background-color: #f8f8d7;
+  background-color: #f7f7de;
   padding: 18px;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 0 0px 10px rgba(0, 0, 0, 0.25);
   margin: 10px;
+}
+
+.grid-exercises:hover {
+  background-color: #d8d8ba;
+  color: #000000;
 }
 
 @media (min-width: 768px) {
@@ -411,9 +498,11 @@ button:hover {
   }
 }
 
-.grid-exercises:hover {
-  background-color: #d8d8ba;
-  color: #000000;
+@media (max-width: 575px) {
+  .grid-exercises {
+    padding: 13px;
+    width: 110px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -440,9 +529,23 @@ button:hover {
   }
 }
 
+@media (max-width: 575px) {
+  .linguboost-footer {
+    padding: 10px;
+    margin-right: 50px;
+  }
+}
+
 .github {
   margin-right: 100px;
   margin-top: 10px;
+}
+
+@media (max-width: 575px) {
+  .github {
+    margin-top: 8px;
+    margin-right: 105px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
