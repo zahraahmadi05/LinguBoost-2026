@@ -1,6 +1,6 @@
 # Changelog
 
-# 📢 Update 7/6/2026
+# 📢 Update 06/07/2026
 
 ## Create a dashboard.
 
@@ -12,7 +12,7 @@ Vocabulary. Grammar. Pronunciation. Exercises: vocabulary exercises. grammar exe
 
 ![Dashboard Page](./imgs/Dashboard.png)
 
-# 📢 Update 8/6/2026
+# 📢 Update 06/08/2026
 
 Change whole style.
 
@@ -24,7 +24,7 @@ Exercise categories are now displayed when the user clicks on the Exercises sect
 
 ![Exercises Page](./imgs/exercises.png)
 
-# 📢 Update 13/6/2026
+# 📢 Update 06/13/2026
 
 Add background.
 
@@ -36,7 +36,7 @@ Add icons for header, description, dashboard.
 
 Edit dachboard styles.
 
-# 📢 Update 14/6/2026
+# 📢 Update 06/14/2026
 
 Changing the Start Button Style.
 
@@ -44,16 +44,20 @@ Changing the header text.
 
 Styling the header text.
 
-# 📢 Update 14/6/2026
+# 📢 Update 06/15/2026
 
 Add background for tablets.
 
 Add media query.
 
-# 📢 Update 21/6/2026
+# 📢 Update 06/21/2026
 
 Add github link in footer.
 
 Add style for github link in footer.
 
 Change some icons.
+
+# 📢 Update 6/23/2026
+
+Add responsive for mobiles.
