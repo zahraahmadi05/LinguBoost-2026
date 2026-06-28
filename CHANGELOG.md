@@ -58,6 +58,12 @@ Add style for github link in footer.
 
 Change some icons.
 
-# 📢 Update 6/23/2026
+# 📢 Update 06/23/2026
 
 Add responsive for mobiles.
+
+# 📢 Update 06/28/2026
+
+Install Node.js.
+
+Install TailwindCSS v4.
