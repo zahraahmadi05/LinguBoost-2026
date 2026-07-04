@@ -5,12 +5,12 @@
 }
 
 :root {
-  --text: #0f172a;
+  //--text: #0f172a;
   --border: #568be7;
-  --text-button: #000000;
+  //--text-button: #000000;
 }
 
-body {
+/*body {
   display: grid;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@ body {
   background-image: url("imgs/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
+}*/
 
 @media (min-width: 768px) {
   body {
@@ -48,16 +48,15 @@ body {
   }
 }
 
-.linguboost-header {
+/*.linguboost-header {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 15px;
   text-align: center;
   font-size: 1.2rem;
-  background: var(--primary);
   color: var(--text-button);
   font-weight: 500;
-}
+}*/
 
 @media (min-width: 768px) {
   .linguboost-header {
