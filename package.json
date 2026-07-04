@@ -4,7 +4,7 @@
   "description": "- DOM Manipulation\r - Event Handling\r - Working with Forms\r - Dynamic Content Rendering\r - User Interaction Design",
   "main": "script.js",
   "scripts": {
-    "build:css": "npx @tailwindcss/cli -i ./src/inputstyle.css -o ./dist/outputstyle.css --watch"
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --watch"
   },
   "repository": {
     "type": "git",
