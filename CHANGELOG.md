@@ -67,3 +67,10 @@ Add responsive for mobiles.
 Install Node.js.
 
 Install TailwindCSS v4.
+
+# 📢 Update 07/04/2026
+
+Add dist & src file.
+
+Create two file for tailwindcss in dist (style.css) and src (input.css).
+
