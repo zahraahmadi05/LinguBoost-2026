@@ -141,11 +141,11 @@
   border-radius: 15px;
 }*/
 
-.btn-start:hover {
+/*.btn-start:hover {
   background: #0b33a0;
   color: #fff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
-}
+}*/
 
 @media (min-width: 768px) {
   .btn-start {
