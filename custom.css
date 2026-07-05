@@ -516,10 +516,10 @@ button:hover {
   }
 }
 
-.linguboost-footer {
+/*.linguboost-footer {
   margin-top: 15px;
   padding: 10px 120px;
-}
+}*/
 
 @media (min-width: 768px) {
   .linguboost-footer {
@@ -535,10 +535,10 @@ button:hover {
   }
 }
 
-.github {
+/*.github {
   margin-right: 100px;
   margin-top: 10px;
-}
+}*/
 
 @media (max-width: 575px) {
   .github {
