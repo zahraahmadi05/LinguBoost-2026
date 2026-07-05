@@ -170,7 +170,7 @@
   }
 }
 
-.card {
+/*.card {
   background-filter: blur(14px);
   border-radius: 25px;
   padding: 10px 10px;
@@ -180,7 +180,7 @@
     opacity 0.3s ease;
   line-height: 2;
   display: none;
-}
+}*/
 
 @media (min-width: 768px) {
   .card {
@@ -204,10 +204,10 @@
   }
 }
 
-.icon {
+/*.icon {
   width: 70px;
   margin-right: 195px;
-}
+}*/
 
 @media (min-width: 768px) {
   .icon {
@@ -223,7 +223,7 @@
   }
 }
 
-.btn-next {
+/*.btn-next {
   margin-top: 15px;
   margin-bottom: 20px;
   width: 70px;
@@ -247,7 +247,7 @@
 
 .btn-next:active {
   transform: translateY(0);
-}
+}*/
 
 @media (min-width: 768px) {
   .btn-next {
