@@ -324,7 +324,7 @@ input:focus {
   }
 }
 
-button {
+/*button {
   margin-top: 15px;
   padding: 12px;
   background: #d2dbe6;
@@ -339,7 +339,7 @@ button {
 button:hover {
   background: #267fec;
   color: #ffffff;
-}
+}*/
 
 @media (min-width: 768px) {
   button {
@@ -377,12 +377,12 @@ button:hover {
   }
 }
 
-.grid-container {
+/*.grid-container {
   padding: 30px;
   display: grid;
   grid-template-columns: repeat(3, 250px);
   gap: 8px;
-}
+}*/
 
 @media (min-width: 768px) {
   .grid-container {
@@ -398,7 +398,7 @@ button:hover {
   }
 }
 
-.grid-item {
+/*.grid-item {
   color: #000000;
   background-color: #fcfce6;
   width: 300px;
@@ -416,7 +416,7 @@ button:hover {
 .grid-item:hover {
   background-color: #f5efe4;
   color: #000;
-}
+}*/
 
 @media (min-width: 768px) {
   .grid-item {
@@ -452,9 +452,9 @@ button:hover {
   }
 }
 
-.icons {
+/*.icons {
   width: 40px;
-}
+}*/
 
 @media (min-width: 768px) {
   .icons {
@@ -472,7 +472,7 @@ button:hover {
   display: none;
 }
 
-.grid-exercises {
+/*.grid-exercises {
   color: #000000;
   background-color: #f7f7de;
   padding: 18px;
@@ -486,7 +486,7 @@ button:hover {
 .grid-exercises:hover {
   background-color: #d8d8ba;
   color: #000000;
-}
+}*/
 
 @media (min-width: 768px) {
   .grid-exercises {
