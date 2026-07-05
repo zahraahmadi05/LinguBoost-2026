@@ -274,13 +274,13 @@
   }
 }
 
-.field {
+/*.field {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
   gap: 8px;
   margin-bottom: 13px;
-}
+}*/
 
 @media (max-width: 575px) {
   .field {
@@ -289,7 +289,7 @@
   }
 }
 
-input {
+/*input {
   background: #e2e8f0;
   width: 220px;
   padding: 6px;
@@ -302,7 +302,7 @@ input {
 input:focus {
   border-color: #bfcfe3;
   box-shadow: 0 0 0 5px rgba(68, 5, 68, 0.15);
-}
+}*/
 
 @media (min-width: 768px) {
   input {
