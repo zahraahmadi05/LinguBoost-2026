@@ -74,3 +74,6 @@ Add dist & src file.
 
 Create two file for tailwindcss in dist (style.css) and src (input.css).
 
+# 📢 Update 07/05/2026
+
+Change CSS codes to Tailwind.
