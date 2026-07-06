@@ -77,3 +77,19 @@ Create two file for tailwindcss in dist (style.css) and src (input.css).
 # 📢 Update 07/05/2026
 
 Change CSS codes to Tailwind.
+
+# 📢 Update 07/06/2026
+
+Center the icon and the hero section.
+
+Reduce the font size.
+
+Make the cards smaller.
+
+Center the text inside the cards.
+
+Make the form smaller.
+
+Center the footer.
+
+Add spacing between the cards.
