@@ -93,3 +93,7 @@ Make the form smaller.
 Center the footer.
 
 Add spacing between the cards.
+
+# 📢 Update 07/18/2026
+
+Enable the Start, Done, Next button
