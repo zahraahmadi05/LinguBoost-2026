@@ -27,6 +27,15 @@ const dashboard = document.getElementById("dashboard");
 const practiceBtn = document.getElementById("practice-btn");
 const practiceMenu = document.getElementById("practice-menu");
 
+// مخفی کردن همه ی کارت ها در ابتدای بارگذاری صفحه
+cards.forEach((card) => (card.style.display = "none"));
+
+// مخفی کردن منوی تمرینات در ابتدای بارگذاری صفحه
+practiceMenu.style.display = "none";
+
+// مخفی کردن داشبورد
+dashboard.style.display = "none";
+
 // متغییر شمارنده
 let steps = -1;
 
@@ -50,7 +59,7 @@ startBtn.addEventListener("click", () => {
     // غیرفعال شدن کلیک استارت
     startBtn.disabled = true;
     startBtn.style.cursor = "not-allowed";
-    startBtn.style.pointer = "0.5";
+    startBtn.style.opacity = "0.5";
   }
 });
 
@@ -82,7 +91,10 @@ doneBtn.addEventListener("click", () => {
 
 // فعال کردن دکمه ی تمرینات
 practiceBtn.addEventListener("click", () => {
-  if ((practiceMenu.style.display = "none")) {
+  if (
+    practiceMenu.style.display === "none" ||
+    practiceMenu.style.display === ""
+  ) {
     practiceMenu.style.display = "block";
   } else {
     practiceMenu.style.display = "none";
